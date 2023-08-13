@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buyerdashboard"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+    </RelativeLayout>
+
+    <ImageButton
+    android:id="@+id/productbtn"
+    android:layout_width="130dp"
+    android:layout_height="130dp"
+    android:layout_marginTop="150dp"
+    android:layout_marginLeft="-370dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/product"
+    android:backgroundTint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="-92dp"
+        android:text="Products"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/cartbtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="90dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cart"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="-65dp"
+        android:text="Cart"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/profilebtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="-280dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/profile"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="-85dp"
+        android:text="Profile"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/contactusbtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="105dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/contactus"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="-100dp"
+        android:text="Contact Us"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+</LinearLayout>

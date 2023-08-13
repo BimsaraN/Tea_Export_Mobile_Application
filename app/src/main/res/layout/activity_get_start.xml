@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".get_start">
+
+    <ImageView
+        android:layout_width="676dp"
+        android:layout_height="901dp"
+        android:layout_marginLeft="-110dp"
+        android:src="@drawable/backgrounf"/>
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="-480dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#638E21"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:cornerRadius="10dp"
+        app:strokeColor="#000000"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/signbtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="-250dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#FF638E21"
+        android:text="Signup"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:cornerRadius="10dp"
+        app:strokeColor="#000000"
+        app:strokeWidth="3dp" />
+
+
+</LinearLayout>

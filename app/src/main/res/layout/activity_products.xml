@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buyerdashboard"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/teabagbtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-370dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/teabags"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="-92dp"
+        android:text="Tea Bags"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/tealeavesbtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="90dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tealeavs"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="-102dp"
+        android:text="Tea Leaves"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/lemonteabtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="-285dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lemontea"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="-100dp"
+        android:text="Lemon Tea"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/strawberryteabtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="80dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/strawberrytea"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="-115dp"
+        android:text="Strawberry Tea"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/iceteabtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="-295dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icetea"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="-88dp"
+        android:text="Ice Tea"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/blackteabtn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="95dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/blacktea"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="-97dp"
+        android:text="Black Tea"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+</LinearLayout>

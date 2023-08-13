@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddOrder">
+
+    <ImageView
+        android:layout_width="676dp"
+        android:layout_height="901dp"
+        android:layout_marginLeft="-110dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/img1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-473dp"
+        android:layout_marginTop="70dp"
+        android:text="Add Order"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="-245dp"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:id="@+id/TextViewTextPersonName1"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="390dp"
+            android:inputType="text"
+            android:text="Product Name : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/productname"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="388dp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/TextViewTextPersonName2"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="325dp"
+            android:inputType="textEmailAddress"
+            android:text="Customer Name : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/customername"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="142dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="318dp"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/TextViewTextPersonName3"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="197dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="273dp"
+            android:inputType="text"
+            android:text="Quantity : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/country"
+            android:layout_width="261dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="224dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="233dp"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/TextViewTextPersonName4"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="276dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="164dp"
+            android:inputType="textPersonName"
+            android:text="Email : "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/feedback"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="299dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="161dp"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/paynowbtn"
+            android:layout_width="166dp"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginBottom="60dp"
+            android:backgroundTint="#638E21"
+            android:radius="250dp"
+            android:text="Pay Now"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:cornerRadius="10dp" />
+    </RelativeLayout>
+
+</LinearLayout>
